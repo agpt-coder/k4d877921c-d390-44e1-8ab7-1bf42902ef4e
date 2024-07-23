@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "k4"
+version = "0.1.0"
+description = "The development of the kiosk management application will be approached with meticulous attention to detail, ensuring that the final product meets all specified requirements and enhancements to cater to a broad user base while maintaining a strong security posture. The application will be built on the tech stack comprising Python for the backend programming, leveraging the FastAPI framework for its asynchronous support and ease in building APIs, PostgreSQL for the database to ensure robust data management, and Prisma as the ORM for efficient database interactions. The system design will incorporate the following key functionalities and features:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+fastapi = "^0.75.0"
+passlib = "*"
+prisma = "*"
+pydantic = "*"
+python-jose = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
